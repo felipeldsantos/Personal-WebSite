@@ -10,9 +10,19 @@ hr {
     border-radius: 50%;
 }
 
+#hobbies hr{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .section-title{
     text-align: left;
     margin-left: 1.5rem;
+}
+
+#title img{
+    border-radius: 50%;
+    margin: 2rem;
 }
 
 #education img{
@@ -54,6 +64,10 @@ p{
     color: azure;
 }
 
+.colored-section{
+    color: whitesmoke;
+}
+
 .year{
     text-align: right;
 }
@@ -70,6 +84,8 @@ p{
     color: #aaa9ad;
 }
 
+
+
 section > .row{
     margin-top: 5rem;
 }
@@ -77,6 +93,35 @@ section > .row{
 .skill-text{
     margin-top: 3rem;
     padding: 0 30%;
+}
+
+.chess{
+    text-align: left;
+}
+
+#hobbies .row{
+    margin: 6rem 5rem;
+}
+
+#hobbies img{
+    width: 50%;
+    background-color: #0E8388;
+    border-radius: 50%;
+    padding: 7%;
+    overflow: visible;
+}
+
+#hobbies img:hover{
+    padding: 4%;
+    background-image: linear-gradient(to bottom,#0E8388, #CBE4DE);
+}
+
+h3{
+    font-weight: 300;
+}
+
+.climbing{
+    text-align: right;
 }
 
 #title{
@@ -97,4 +142,40 @@ section > .row{
 
 #hobbies{
     padding: 5rem ;
+}
+
+.marca{
+    color: whitesmoke;
+    margin-top: 30px;
+    font-size: 70%;
+    font-weight: 300;
+}
+
+.info-link{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.info-link:hover{
+    color: white;
+}
+
+#info{
+    background-image: linear-gradient(to bottom, #2E4F4F, #0E8388);
+    margin: 0;
+    height: 9rem;
+    padding-top: 3rem;
+}
+
+@media (max-width: 1000px){
+    .chess-img{
+       margin-top: 3rem;
+    }
+
+    .climbing-img{
+        margin-bottom: 3rem;
+    }
 }

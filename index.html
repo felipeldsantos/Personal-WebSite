@@ -10,10 +10,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <section id="title">
+        <section id="title" class="colored-section">
             <!-- container-fluid: 100% in all medias -->
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-dark  text-white">
@@ -33,14 +33,16 @@
                                 <a class="nav-link" href="#hobbies">Hobbies</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
+                                <a class="nav-link" href="#info">Information</a>
                             </li>
                         </ul>
                     </div>
                 </nav>
 
                 <h1 class="nome"><em>I'm Felipe Santos</em></h1>
+                <img src="images/perfilinsta.jpg">
                 <h3 class="subhead">Computer Engineering Student</h3>
+
             </div>
         </section>
 
@@ -99,7 +101,7 @@
 
         </section>
 
-        <section id="skills">
+        <section id="skills" class="colored-section">
             <h1 class="section-title">Skills</h1>
             
             <div id="skill-carousel" class="carousel slide" data-bs-ride="false">
@@ -133,9 +135,34 @@
         <section id="hobbies">
             <h1 class="section-title">Hobbies</h1>
 
+            <div class="row">
+                <div class="col-lg-6 col-md-12 chess">
+                    <h2>Chess</h2>
+                    <h3>Playing online chess on chess.com and lichess for the last 5 years, mainly blitz 3+0 mathces. Participated on
+                        a few competitions between chess clubs in the city of Rio de Janeiro.
+                    </h3>
+                </div>
+                <div class="col-lg-6 col-md-12 chess-img">
+                    <img src="images/chess.png">
+                </div>
+            </div>
+            <hr noshade>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 climbing-img">
+                    <img src="images/climbing.png">
+                </div>
+                <div class="col-lg-6 col-md-12 climbing">
+                    <h2>Bouldering/Mountain Climbing</h2>
+                    <h3>Practicing Indoor Bouldering for the past 2 years and Mountain climbing for the last 6 months.
+                    </h3>
+                </div>
+            </div>
+        </section>
 
-        <section id="contact">
-
+        <section id="info" class="colored-section">
+            <a class="info-link" href="https://www.linkedin.com/in/felipe-lins-dos-santos-5b5a29200/">Linkedin</a>
+            <a class="info-link" href="https://github.com/felipeldsantos">Github</a>
+            <p class="marca">©2023 Felipe Santos.</p>
         </section>
 
     </body>
