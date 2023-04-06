@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+hr {
+    border: 0.1rem solid;
+    border-color: #0E8388;
+    border-radius: 50%;
+}
+
+.section-title{
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+#education img{
+    border-radius: 50%;
+    width: 80%;
+    margin-left: 5rem;
+}
+
+#skills img{
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 2rem;
+}
+
+p{
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: large;
+}
+
+.navbar{
+    padding: 2rem 1rem;
+}
+
+.nav-item{
+    padding: 0 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid{
+    padding: 0 5% 0;
+}
+
+.nome{
+    margin: 2rem auto 2rem auto;
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    font-size: 5rem;
+    color: azure;
+}
+
+.year{
+    text-align: right;
+}
+
+.bronze{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    color: #cd7f32;
+}
+
+.silver{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    color: #aaa9ad;
+}
+
+section > .row{
+    margin-top: 5rem;
+}
+
+.skill-text{
+    margin-top: 3rem;
+    padding: 0 30%;
+}
+
+#title{
+    background-image: linear-gradient(to bottom, #2C3333, #2E4F4F);
+    padding-bottom: 5rem;
+}
+
+#education{
+    text-align: left;
+    padding: 0 7%;
+    margin-bottom: 5rem;
+}
+
+#skills{
+    padding: 5rem ;
+    background-image: linear-gradient(to bottom,#2E4F4F, #0E8388);
+}
+
+#hobbies{
+    padding: 5rem ;
+}
