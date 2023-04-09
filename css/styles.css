@@ -1,3 +1,4 @@
+/* Genereal */
 body{
     margin: 0;
     text-align: center;
@@ -10,9 +11,18 @@ hr {
     border-radius: 50%;
 }
 
-#hobbies hr{
-    width: 80%;
-    margin: 0 auto;
+p{
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: large;
+}
+
+h3{
+    font-weight: 300;
+}
+
+.colored-section{
+    color: whitesmoke;
 }
 
 .section-title{
@@ -20,29 +30,7 @@ hr {
     margin-left: 1.5rem;
 }
 
-#title img{
-    border-radius: 50%;
-    margin: 2rem;
-}
-
-#education img{
-    border-radius: 50%;
-    width: 80%;
-    margin-left: 5rem;
-}
-
-#skills img{
-    border-radius: 50%;
-    width: 20%;
-    margin-top: 2rem;
-}
-
-p{
-    font-weight: bold;
-    line-height: 2rem;
-    font-size: large;
-}
-
+/* navbar */
 .navbar{
     padding: 2rem 1rem;
 }
@@ -56,6 +44,12 @@ p{
     padding: 0 5% 0;
 }
 
+/* title */
+#title{
+    background-image: linear-gradient(to bottom, #2C3333, #2E4F4F);
+    padding-bottom: 5rem;
+}
+
 .nome{
     margin: 2rem auto 2rem auto;
     font-family: 'Sacramento', cursive;
@@ -64,12 +58,29 @@ p{
     color: azure;
 }
 
-.colored-section{
-    color: whitesmoke;
+.nome:hover{
+    text-shadow: 0.125rem 0 rgb(0, 247, 255);
 }
 
-.year{
-    text-align: right;
+#title img{
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+/* education */
+#education{
+    text-align: left;
+    padding: 0 7%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+#education img{
+    border-radius: 50%;
+    width: 80%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .bronze{
@@ -84,15 +95,35 @@ p{
     color: #aaa9ad;
 }
 
+.year{
+    text-align: right;
+}
 
+/* skills */
+#skills{
+    padding: 5rem ;
+    background-image: linear-gradient(to bottom,#2E4F4F, #0E8388);
+}
 
-section > .row{
-    margin-top: 5rem;
+#skills img{
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 2rem;
 }
 
 .skill-text{
     margin-top: 3rem;
     padding: 0 30%;
+}
+
+/* hobbies */
+#hobbies{
+    padding: 5rem ;
+}
+
+#hobbies hr{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .chess{
@@ -116,32 +147,30 @@ section > .row{
     background-image: linear-gradient(to bottom,#0E8388, #CBE4DE);
 }
 
-h3{
-    font-weight: 300;
-}
-
 .climbing{
     text-align: right;
 }
 
-#title{
-    background-image: linear-gradient(to bottom, #2C3333, #2E4F4F);
-    padding-bottom: 5rem;
+#hobbies .row{
+    margin-top: 5rem;
 }
 
-#education{
-    text-align: left;
-    padding: 0 7%;
-    margin-bottom: 5rem;
+@media (max-width: 1000px){
+    .chess-img{
+       margin-top: 3rem;
+    }
+
+    .climbing-img{
+        margin-bottom: 3rem;
+    }
 }
 
-#skills{
-    padding: 5rem ;
-    background-image: linear-gradient(to bottom,#2E4F4F, #0E8388);
-}
-
-#hobbies{
-    padding: 5rem ;
+/* info */
+#info{
+    background-image: linear-gradient(to bottom, #2E4F4F, #0E8388);
+    margin: 0;
+    height: 9rem;
+    padding-top: 3rem;
 }
 
 .marca{
@@ -161,21 +190,4 @@ h3{
 
 .info-link:hover{
     color: white;
-}
-
-#info{
-    background-image: linear-gradient(to bottom, #2E4F4F, #0E8388);
-    margin: 0;
-    height: 9rem;
-    padding-top: 3rem;
-}
-
-@media (max-width: 1000px){
-    .chess-img{
-       margin-top: 3rem;
-    }
-
-    .climbing-img{
-        margin-bottom: 3rem;
-    }
 }
